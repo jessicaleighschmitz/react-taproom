@@ -1,6 +1,15 @@
-# _<p align="center">React Template</p>_
 
-#### _**<p align="center">By: Julia Sheremet</p>**_
+# _<p align="center">React Taproom</p>_
+
+#### _**<p align="center">By: Jessica Schmitz</p>**_
+
+
+## Notes
+
+*
+
+
+## React vs. Angular
 
 <p align="center">  
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
