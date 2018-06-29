@@ -17,6 +17,10 @@ Unforeseen Issues
 
 ## React vs. Angular
 
+The difference between React and Angular thus far seems to be modularity. In react everything is in one function for that piece of code. In Angular each component has a few pages all tied together.
+
+Before we start implementing Redux I think that passage of data in react and angular will be similar (done with call back functions), which I think Redux will change how we manage application and component state. 
+
 <p align="center">  
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 <a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square"></a>
