@@ -1,15 +1,17 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
+import NewsTickerList from './NewsTickerList';
+import BeerList from './BeerList';
+import Error404 from './Error404';
 
-import ShoeList from './ShoeList';
-import AboutUs from './AboutUs';
 
 function Router(){
   return(
     <div>
       <Switch>
-        <Route exact path='/' component={ShoeList} />
-        <Route path='/aboutUs' component={AboutUs} />
+        <Route exact path='/' component={BeerList} />
+        <Route path='/newsTicker' component={NewsTickerList} />
+        <Route component={Error404}/>
       </Switch>
     </div>
   );

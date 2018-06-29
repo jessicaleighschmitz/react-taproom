@@ -1,11 +1,13 @@
 import React from 'react';
 import Router from './Router';
+import Header from './Header';
+import Footer from './Footer';
 
 
 function App(){
   return (
     <div>
-      <Nav />
+      <Header />
       <Router />
       <Footer />
     </div>
