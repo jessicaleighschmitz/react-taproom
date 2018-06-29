@@ -10,6 +10,7 @@ function Header () {
         <h1><Link style={{textDecoration: "none",             color: "#171614"}} to='/'>Fermented</Link></h1>
       </div>
       <div className="header-right">
+        <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/'>Home</Link></p>
         <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/newsTicker'>Craft Brew News</Link></p>
       </div>
       <style jsx>{`
@@ -35,7 +36,7 @@ function Header () {
             align-items: center;
           }
           .header-right p{
-            padding-right:40px;
+            padding-right:20px;
           }
 
 

@@ -14,6 +14,6 @@ const newsStories = [
     author: 'Ryan Spencer',
     blurb: 'Learn about the craft of making Hazy IPAs, the newest trend to hit the PNW.'
   }
-]
+];
 
 export default newsStories;
