@@ -9,7 +9,10 @@
 
 ## Notes
 
-*
+Unforeseen Issues
+
+* adding fontawesome svg for social media icons
+* trying to plan component structure when i'm not sure how it will be structred in the future with class based components
 
 
 ## React vs. Angular
