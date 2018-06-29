@@ -10,10 +10,12 @@ function BeerList() {
 
       </div>
       <h2>On Tap</h2>
+      <hr></hr>
       <div className="beers">
         {kegList.map((beer, index) =>
           <BeerItem name={beer.name}
             brewer={beer.brewer}
+            description={beer.description}
             abv={beer.abv}
             price={beer.price}
             remaining={beer.remaining}
@@ -29,6 +31,15 @@ function BeerList() {
         max-width: 1200px;
         min-height: 800px;
         margin: 0 auto;
+        }
+        h2{
+          font-size: 2.5rem;
+          padding-left: 30px;
+        }
+        .beers{
+          max-width: 1200px;
+          margin: 40px auto;
+          padding-left: 30px;
         }
           `}</style>
     </div>

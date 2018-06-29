@@ -2,8 +2,16 @@ import React from 'react';
 
 function Footer () {
   return(
-    <div>
+    <div className='footer'>
       <p>hello</p>
+      <style jsx>{`
+          *{
+            margin: 0;
+          }
+          .footer{
+            background-color: #E48F3B;
+          }
+            `}</style>
     </div>
   );
 }

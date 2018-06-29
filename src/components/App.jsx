@@ -10,6 +10,10 @@ function App(){
       <Header />
       <Router />
       <Footer />
+
+    <style jsx>{`
+
+          `}</style>
     </div>
   );
 }
