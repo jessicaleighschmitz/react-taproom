@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header () {
   return(
     <div>
-      <p>Yolo</p>
+      <p><Link to='/newsTicker'>Craft Brew News</Link></p>
     </div>
   );
 }
