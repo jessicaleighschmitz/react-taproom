@@ -7,12 +7,13 @@ function Header () {
     <div className="header">
       <div className='logo'>
         <p><Link to='/'><img src={logo}/></Link></p>
-        <h1><Link style={{textDecoration: "none"}} to='/'>Fermented</Link></h1>
+        <h1><Link style={{textDecoration: "none",             color: "#171614"}} to='/'>Fermented</Link></h1>
       </div>
       <div className="header-right">
-        <p className='newsLink'><Link style={{textDecoration: "none"}} to='/newsTicker'>Craft Brew News</Link></p>
+        <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/newsTicker'>Craft Brew News</Link></p>
       </div>
       <style jsx>{`
+          @import url('https://fonts.googleapis.com/css?family=Righteous');
           *{
             margin: 0;
           }
@@ -20,6 +21,10 @@ function Header () {
             display: flex;
             justify-content: space-between;
             align-items: center;
+          }
+          h1{
+            font-family: 'Righteous', cursive;
+            font-size: 3.5rem;
           }
            .header-right{
             display:flex;
