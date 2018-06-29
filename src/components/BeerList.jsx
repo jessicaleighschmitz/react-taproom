@@ -9,8 +9,9 @@ function BeerList() {
       <div className="banner">
 
       </div>
-      <h2>On Tap</h2>
-      <hr></hr>
+      <div className="on-tap">
+      <h2>Currently Pouring</h2>
+      </div>
       <div className="beers">
         {kegList.map((beer, index) =>
           <BeerItem name={beer.name}
@@ -30,16 +31,22 @@ function BeerList() {
         background-position: center;
         max-width: 1200px;
         min-height: 800px;
-        margin: 0 auto;
+        margin-top:40px;
         }
         h2{
-          font-size: 2.5rem;
+          font-size: 3rem;
           padding-left: 30px;
+          color: #FFF;
         }
         .beers{
           max-width: 1200px;
-          margin: 40px auto;
+          margin: 40px auto 100px;
           padding-left: 30px;
+        }
+        .on-tap{
+          background-color: #E48F3B;
+          text-align: center;
+          padding: 30px;
         }
           `}</style>
     </div>

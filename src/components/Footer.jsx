@@ -3,14 +3,14 @@ import React from 'react';
 function Footer () {
   return(
     <div className='footer'>
-      <p>hello</p>
+      <p>k</p>
       <style jsx>{`
-          *{
-            margin: 0;
-          }
-          .footer{
-            background-color: #E48F3B;
-          }
+        *{
+          margin: 0;
+        }
+        .footer{
+          background-color: #E48F3B;
+        }
             `}</style>
     </div>
   );

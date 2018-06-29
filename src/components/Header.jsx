@@ -38,8 +38,6 @@ function Header () {
           .header-right p{
             padding-right:20px;
           }
-
-
             `}
       </style>
 

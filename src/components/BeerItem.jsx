@@ -50,6 +50,6 @@ BeerItem.PropTypes = {
   abv: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   remaining: PropTypes.string.isRequired,
-}
+};
 
 export default BeerItem;
