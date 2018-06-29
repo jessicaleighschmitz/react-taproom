@@ -3,6 +3,9 @@
 
 #### _**<p align="center">By: Jessica Schmitz</p>**_
 
+| Component Structure |
+| :------------------ |
+| ![component structure](src/assets/img/taproom-structure.jpg) |
 
 ## Notes
 
@@ -20,7 +23,7 @@
 
 ### Link to live application:
 
-_This is a template repository with the added technologies to build a React Application quicker for projects_
+_This is a _
 
 ## <span style="color:#74875d;">Technologies Used</span>
 
@@ -34,7 +37,7 @@ _This is a template repository with the added technologies to build a React Appl
 
 ### <span style="color:#74875d;">License</span>
 
-Copyright (c) 2018 ****_Julia Sheremet_****
+Copyright (c) 2018 ****_Jessica Schmitz_****
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
