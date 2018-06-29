@@ -8,7 +8,7 @@ function NewsTickerItem (props) {
       <div className="content">
       <p className="headline"><strong>{props.headline}</strong></p>
       <p className="blurb">{props.blurb}</p>
-      <p className="author">by {props.author}</p>
+      <p className="author"><span className="italic">by {props.author}</span></p>
 
       <style jsx>{`
           .news-ticker-item{
@@ -16,6 +16,9 @@ function NewsTickerItem (props) {
           }
           .headline{
             font-size: 1.8rem;
+          }
+          .italic{
+            font-style: italic;
           }
             `}</style>
       </div>
