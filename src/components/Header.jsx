@@ -12,6 +12,7 @@ function Header () {
       <div className="header-right">
         <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/'>Home</Link></p>
         <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/newsTicker'>Craft Brew News</Link></p>
+        <p className='newsLink'><Link style={{textDecoration: "none", color: "#171614"}} to='/about'>About</Link></p>
       </div>
       <style jsx>{`
           @import url('https://fonts.googleapis.com/css?family=Righteous');

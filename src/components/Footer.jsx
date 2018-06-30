@@ -2,6 +2,7 @@ import React from 'react';
 import instagram from '../assets/img/instagram.png';
 import facebook from '../assets/img/facebook.png';
 import twitter from '../assets/img/twitter.png';
+import { Link } from 'react-router-dom';
 
 function Footer () {
   return(
@@ -16,7 +17,7 @@ function Footer () {
           <p>&copy;2018 Fermented, LLC. </p>
           <div className="contact">
             <p>Contact</p>
-            <p>About</p>
+            <p><Link style={{textDecoration:"none", color: "#000"}} to='/about'>About</Link></p>
           </div>
         </div>
       </div>

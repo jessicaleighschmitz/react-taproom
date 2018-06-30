@@ -10,7 +10,7 @@ function BeerItem (props) {
         <p className="style">{props.description}</p>
       </div>
       <div className="beers-right">
-        <p className="abv"><span className="text-bold">abv:</span>{props.abv}</p>
+        <p className="abv"><span className="text-bold">abv: </span>{props.abv}</p>
         <p className="price">${props.price}</p>
         <p className="remaining"><span className="text-bold">Pours left:</span> {props.remaining}</p>
       </div>
@@ -24,8 +24,8 @@ function BeerItem (props) {
             padding-right: 30px;
             margin: 0 auto;
           }
-          .beers.left{
-            margin-right: 20px;
+          .beers-right{
+            padding-top: 40px;
           }
           .beer-name{
             font-size: 1.8rem;
@@ -33,6 +33,7 @@ function BeerItem (props) {
           .brewery{
             font-weight: bold;
             font-size: 1.2rem;
+            color: #E48F3B;
           }
           .text-bold{
             font-weight: bold;
