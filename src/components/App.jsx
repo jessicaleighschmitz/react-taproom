@@ -4,18 +4,27 @@ import Header from './Header';
 import Footer from './Footer';
 
 
-function App(){
-  return (
-    <div>
-      <Header />
-      <Router />
-      <Footer />
+class App extends React.Component{
 
-    <style jsx>{`
+  constructor(props) {
+    super(props);
+    this.state= {
+      masterBeerList: []
+    };
+  }
+  render(){
+    return (
+      <div>
+        <Header />
+        <Router />
+        <Footer />
 
-          `}</style>
-    </div>
-  );
+        <style jsx>{`
+
+            `}</style>
+        </div>
+      );
+  }
 }
 
 export default App;
