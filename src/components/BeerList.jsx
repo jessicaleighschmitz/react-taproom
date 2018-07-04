@@ -1,19 +1,18 @@
 import React from 'react';
 import BeerItem from './BeerItem';
-import kegList from './BeerData';
+import PropTypes from 'prop-types';
 import banner from '../assets/img/banner.jpg';
 
-function BeerList() {
+function BeerList(props) {
   return (
     <div>
       <div className="banner">
-
       </div>
       <div className="on-tap">
       <h2>Currently Pouring</h2>
       </div>
       <div className="beers">
-        {kegList.map((beer, index) =>
+        {props.beerList.map((beer, index) =>
           <BeerItem name={beer.name}
             brewer={beer.brewer}
             description={beer.description}
@@ -51,6 +50,10 @@ function BeerList() {
           `}</style>
     </div>
   );
+}
+
+BeerList.propTypes = {
+  beerList: PropTypes.array
 }
 
 export default BeerList;
