@@ -53,8 +53,8 @@ function NewsTickerList () {
             margin-top:40px;
           }
           `}</style>
-      </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default NewsTickerList;

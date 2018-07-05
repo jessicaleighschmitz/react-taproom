@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 
 function NewsTickerItem (props) {
@@ -11,8 +11,8 @@ function NewsTickerItem (props) {
         <p className="author"><span className="italic">by {props.author}</span></p>
 
       </div>
-        <hr></hr>
-        <style jsx>{`
+      <hr></hr>
+      <style jsx>{`
             .news-ticker-item{
               min-height: 200px;
             }
@@ -23,14 +23,14 @@ function NewsTickerItem (props) {
               font-style: italic;
             }
             `}</style>
-      </div>
-    );
-  }
+    </div>
+  );
+}
 
-  NewsTickerItem.propTypes = {
-    headline: PropTypes.string.isRequired,
-    blurb: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-  };
+NewsTickerItem.propTypes = {
+  headline: PropTypes.string.isRequired,
+  blurb: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+};
 
 export default NewsTickerItem;

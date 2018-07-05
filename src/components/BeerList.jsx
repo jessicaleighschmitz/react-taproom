@@ -9,7 +9,7 @@ function BeerList(props) {
       <div className="banner">
       </div>
       <div className="on-tap">
-      <h2>Currently Pouring</h2>
+        <h2>Currently Pouring</h2>
       </div>
       <div className="beers">
         {props.beerList.map((beer, index) =>
@@ -54,6 +54,6 @@ function BeerList(props) {
 
 BeerList.propTypes = {
   beerList: PropTypes.array
-}
+};
 
 export default BeerList;

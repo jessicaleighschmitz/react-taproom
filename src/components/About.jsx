@@ -13,7 +13,7 @@ function About () {
           <p className="para">An Imperial Stout wastedly seeks a mating ritual. A Hommel Bier hibernates, but a blue moon over a Hazed and Infused thoroughly finds much coolness with the colt 45. Now and then, a hardly high ESB completely brainwashes the optimal Miller. The Bacardi Silver, a miserly jersey cow, and a sake bomb are what made America great!</p>
         </div>
       </div>
-    <style jsx>{`
+      <style jsx>{`
         *{
           margin: 0;
         }
@@ -60,4 +60,4 @@ function About () {
     </div>
   );
 }
- export default About;
+export default About;

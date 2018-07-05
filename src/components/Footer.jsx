@@ -17,7 +17,7 @@ function Footer () {
           <p>&copy;2018 Fermented, LLC. </p>
           <div className="contact">
             <p>Contact</p>
-            <p><Link style={{textDecoration:"none", color: "#000"}} to='/about'>About</Link></p>
+            <p><Link style={{textDecoration:'none', color: '#000'}} to='/about'>About</Link></p>
           </div>
         </div>
       </div>
