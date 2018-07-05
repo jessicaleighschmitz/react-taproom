@@ -27,7 +27,7 @@ function NewsTickerItem (props) {
     );
   }
 
-  NewsTickerItem.PropTypes = {
+  NewsTickerItem.propTypes = {
     headline: PropTypes.string.isRequired,
     blurb: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,

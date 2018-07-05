@@ -44,7 +44,7 @@ function BeerItem (props) {
   );
 }
 
-BeerItem.PropTypes = {
+BeerItem.propTypes = {
   name: PropTypes.string.isRequired,
   brewer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
