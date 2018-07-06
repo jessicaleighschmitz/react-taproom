@@ -83,6 +83,7 @@ class App extends React.Component{
     return (
       <div>
         <Header />
+        <hr></hr>
         <Switch>
           <Route exact path='/' render={()=><BeerList beerList={this.state.masterBeerList} />} />
           <Route path='/newsTicker' component={NewsTickerList} />

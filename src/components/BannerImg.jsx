@@ -12,8 +12,8 @@ function BannerImg (){
         background-size: cover;
         background-position: center;
         max-width: 1200px;
-        min-height: 800px;
-        margin-top:40px;
+        min-height: 600px;
+        margin: 40px auto 0;
         }
             `}</style>
     </div>

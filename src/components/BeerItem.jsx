@@ -16,7 +16,7 @@ function BeerItem (props) {
       </div>
       <style jsx>{`
           .beer-item{
-            border: 1px solid #E48F3B;
+            border: 3px solid #E48F3B;
             max-width: 500px;
             display: flex;
             justify-content: space-between;
@@ -34,9 +34,11 @@ function BeerItem (props) {
             font-weight: bold;
             font-size: 1.2rem;
             color: #E48F3B;
+            text-transform: uppercase;
           }
           .text-bold{
             font-weight: bold;
+            font-size: 1.2rem;
           }
             `}
       </style>

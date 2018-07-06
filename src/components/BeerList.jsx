@@ -29,6 +29,7 @@ function BeerList(props) {
           font-size: 3rem;
           padding-left: 30px;
           color: #FFF;
+          text-transform: uppercase;
         }
         .beers{
           max-width: 1200px;
