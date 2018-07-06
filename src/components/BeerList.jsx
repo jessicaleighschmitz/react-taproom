@@ -33,7 +33,7 @@ function BeerList(props) {
         }
         .beers{
           max-width: 1200px;
-          margin: 40px auto 100px;
+          margin: 40px auto 50px;
           padding-left: 30px;
         }
         .on-tap{

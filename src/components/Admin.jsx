@@ -9,7 +9,9 @@ function Admin (props){
       <BeerList
         beerList={props.beerList}
         currentRouterPath={props.currentRouterPath} />
+      <div className="button-flex">
       <button type="button"><Link style={{textDecoration: "none", color: "#E48F3B"}} to="/AddBeerForm">Add Beer</Link></button>
+      </div>
       <style jsx>{`
           button{
             width: 150px;
@@ -17,7 +19,11 @@ function Admin (props){
             border: 2px solid #E48F3B;
             font-size: 1.2rem;
             border-radius: 6px;
-            margin: 0 auto 30px;
+            margin: 0 auto 90px;
+          }
+          .button-flex{
+            display: flex;
+            justify-content: center;
           }
             `}</style>
     </div>
