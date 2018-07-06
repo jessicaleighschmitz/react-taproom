@@ -7,6 +7,10 @@
 | :------------------ |
 | ![component structure](src/assets/img/taproom-structure.jpg) |
 
+#Description
+
+Fermented is a digital tap list designed to let a user know what is on tap in a particular beer bar from any location. Built with React, Fermented practices managing state and making data dynamic.
+
 ## Notes
 
 Unforeseen Issues
