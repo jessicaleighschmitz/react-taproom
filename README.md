@@ -19,6 +19,7 @@ Unforeseen Issues
 * I removed the router because it made more sense to have the routing take place in the (stateful) app component where i could more easily pass props to children
 * I created the AddBeerForm and moved the button linking it to the admin page.
 * I also made the stateful beer list populate in both the home page and on the admin list. Beers were not able to be added unless they AddBeerForm path came after the admin path.
+* Attempted but could not get the newsTicker component to work. I left it in despite it not functioning so and instructor and I could discuss the issue.
 
 
 ## React vs. Angular
