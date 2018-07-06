@@ -2,12 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BeerList from './BeerList';
 import { Link } from 'react-router-dom';
-import BannerImg from './BannerImg';
 
 function Admin (props){
   return(
     <div>
-      <BannerImg/>
       <BeerList
         beerList={props.beerList}
         currentRouterPath={props.currentRouterPath} />

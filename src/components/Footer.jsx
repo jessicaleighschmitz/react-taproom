@@ -18,6 +18,7 @@ function Footer () {
           <div className="contact">
             <p>Contact</p>
             <p><Link style={{textDecoration:'none', color: '#000'}} to='/about'>About</Link></p>
+            <p><Link style={{textDecoration:'none', color: '#000'}} to='/newsTicker'>News</Link></p>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@ function Footer () {
         }
         .footer-container{
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
         }
         .contact p, .footer-container p{
           padding: 15px;

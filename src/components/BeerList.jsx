@@ -2,12 +2,12 @@ import React from 'react';
 import BeerItem from './BeerItem';
 import PropTypes from 'prop-types';
 import banner from '../assets/img/banner.jpg';
+import BannerImg from './BannerImg';
 
 function BeerList(props) {
   return (
     <div>
-      <div className="banner">
-      </div>
+      <BannerImg/>
       <div className="on-tap">
         <h2>Currently Pouring</h2>
       </div>
@@ -25,7 +25,7 @@ function BeerList(props) {
       </div>
 
       <style jsx>{`
-        
+
         h2{
           font-size: 3rem;
           padding-left: 30px;
