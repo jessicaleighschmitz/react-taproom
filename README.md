@@ -16,7 +16,9 @@ Fermented is a digital tap list designed to let a user know what is on tap in a 
 Unforeseen Issues
 
 * adding fontawesome svg for social media icons
-* trying to plan component structure when i'm not sure how it will be structred in the future with class based components
+* I removed the router because it made more sense to have the routing take place in the (stateful) app component where i could more easily pass props to children
+* I created the AddBeerForm and moved the button linking it to the admin page.
+* I also made the stateful beer list populate in both the home page and on the admin list. Beers were not able to be added unless they AddBeerForm path came after the admin path.
 
 
 ## React vs. Angular
