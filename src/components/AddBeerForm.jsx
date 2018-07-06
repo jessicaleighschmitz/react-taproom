@@ -13,6 +13,11 @@ function AddBeerForm (props){
   function handleNewBeerSubmission(event){
     event.preventDefault();
     props.onAddNewBeerToList({name: _beerName.value, brewer: _brewery.value, description: _description.value, abv: _abv.value, price: _price.value, remaining: _remaining});
+    _beerName.value = '';
+    _brewery.value = '';
+    _description.value = '';
+    _abv.value = '';
+    _price.value = '';
   }
 
 

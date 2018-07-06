@@ -1,7 +1,6 @@
 import React from 'react';
 import BeerItem from './BeerItem';
 import PropTypes from 'prop-types';
-import banner from '../assets/img/banner.jpg';
 import BannerImg from './BannerImg';
 
 function BeerList(props) {

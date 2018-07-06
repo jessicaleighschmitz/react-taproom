@@ -10,7 +10,7 @@ function Admin (props){
         beerList={props.beerList}
         currentRouterPath={props.currentRouterPath} />
       <div className="button-flex">
-      <button type="button"><Link style={{textDecoration: "none", color: "#fff"}} to="/AddBeerForm">Add Beer</Link></button>
+        <button type="button"><Link style={{textDecoration: 'none', color: '#fff'}} to="/AddBeerForm">Add Beer</Link></button>
       </div>
       <style jsx>{`
           button{
