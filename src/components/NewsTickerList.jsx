@@ -29,6 +29,7 @@ function NewsTickerList () {
             font-size: 3em;
             padding-left: 30px;
             padding-top: 20px;
+            text-transform: uppercase;
           }
           .news{
             max-width: 1200px;

@@ -33,6 +33,7 @@ function About () {
           padding: 50px;
           text-align: center;
           margin-top: 50px;
+          text-transform: uppercase;
 
         }
         .lighter{
