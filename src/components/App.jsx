@@ -5,6 +5,7 @@ import BeerList from './BeerList';
 import About from './About';
 import Header from './Header';
 import Footer from './Footer';
+import Error404 from './Error404';
 
 import AddBeerForm from './AddBeerForm';
 
@@ -86,6 +87,7 @@ class App extends React.Component{
           <Route path='/newsTicker' component={NewsTickerList} />
           <Route path='/about' component={About}/>
           <Route path='/addbeerform' render={()=><AddBeerForm onAddNewBeerToList={this.handleAddNewBeerToList} />} />
+          <Route component={Error404} />
         </Switch>
         <Footer />
 
