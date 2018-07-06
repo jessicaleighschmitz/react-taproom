@@ -19,6 +19,7 @@ function BeerList(props) {
             abv={beer.abv}
             price={beer.price}
             remaining={beer.remaining}
+            currentRouterPath={props.currentRouterPath}
             key={index}/>
         )}
       </div>
@@ -53,7 +54,8 @@ function BeerList(props) {
 }
 
 BeerList.propTypes = {
-  beerList: PropTypes.array
+  beerList: PropTypes.array,
+  currentRouterPath: PropTypes.string
 };
 
 export default BeerList;

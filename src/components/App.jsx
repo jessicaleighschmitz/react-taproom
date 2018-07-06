@@ -87,7 +87,7 @@ class App extends React.Component{
           <Route exact path='/' render={()=><BeerList beerList={this.state.masterBeerList} />} />
           <Route path='/newsTicker' component={NewsTickerList} />
           <Route path='/about' component={About}/>
-          <Route path='/admin' render={()=><Admin ticketList={this.state.masterBeerList} />} />
+          <Route path='/admin' render={(props)=><Admin beerList={this.state.masterBeerList} currentRouterPath={props.location.pathname} />} />
           <Route path='/addbeerform' render={()=><AddBeerForm onAddNewBeerToList={this.handleAddNewBeerToList} />} />
           <Route component={Error404} />
         </Switch>

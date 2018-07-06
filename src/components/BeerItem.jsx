@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function BeerItem (props) {
-  return (
+  const beerInfo =
     <div className="beer-item">
       <div className="beers-left">
         <p className="beer-name"><strong>{props.name}</strong></p>
@@ -41,8 +41,20 @@ function BeerItem (props) {
             `}
       </style>
     </div>
-  );
-}
+    if (props.currentRouterPath ==='./admin'){
+      return (
+        <div onClick={() => {alert('hey cutie,' + props.name);}}>
+          {beerInfo}
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          {beerInfo}
+        </div>
+      );
+    }
+  }
 
 BeerItem.propTypes = {
   name: PropTypes.string.isRequired,
@@ -51,6 +63,7 @@ BeerItem.propTypes = {
   abv: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   remaining: PropTypes.string.isRequired,
+  currentRouterPath: PropTypes.string
 };
 
 export default BeerItem;
