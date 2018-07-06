@@ -7,6 +7,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Error404 from './Error404';
 import Admin from './Admin';
+import Newsticker from 'react-newsticker';
+import ticker from './TickerData';
 
 import AddBeerForm from './AddBeerForm';
 
@@ -84,6 +86,7 @@ class App extends React.Component{
       <div>
         <Header />
         <hr></hr>
+        <Newsticker news={ticker} />
         <Switch>
           <Route exact path='/' render={()=><BeerList beerList={this.state.masterBeerList} />} />
           <Route path='/newsTicker' component={NewsTickerList} />
