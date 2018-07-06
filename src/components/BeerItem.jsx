@@ -40,21 +40,21 @@ function BeerItem (props) {
           }
             `}
       </style>
-    </div>
-    if (props.currentRouterPath ==='./admin'){
-      return (
-        <div onClick={() => {alert('hey cutie,' + props.name);}}>
-          {beerInfo}
-        </div>
-      );
-    } else {
-      return (
-        <div>
-          {beerInfo}
-        </div>
-      );
-    }
+    </div>;
+  if (props.currentRouterPath ==='./admin'){
+    return (
+      <div onClick={() => {alert('hey cutie,' + props.name);}}>
+        {beerInfo}
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        {beerInfo}
+      </div>
+    );
   }
+}
 
 BeerItem.propTypes = {
   name: PropTypes.string.isRequired,

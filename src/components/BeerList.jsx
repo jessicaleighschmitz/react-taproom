@@ -25,14 +25,7 @@ function BeerList(props) {
       </div>
 
       <style jsx>{`
-        .banner{
-        background-image: url(${banner});
-        background-size: cover;
-        background-position: center;
-        max-width: 1200px;
-        min-height: 800px;
-        margin-top:40px;
-        }
+        
         h2{
           font-size: 3rem;
           padding-left: 30px;
