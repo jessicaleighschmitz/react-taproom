@@ -11,7 +11,7 @@ function Header () {
       </div>
       <div className="header-right">
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/'>Home</Link></p>
-        <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/newsTicker'>Craft Brew News</Link></p>
+        <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/newsTicker'>News</Link></p>
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/about'>About</Link></p>
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/admin'>Admin</Link></p>
       </div>
@@ -29,8 +29,9 @@ function Header () {
             font-family: 'Righteous', cursive;
             font-size: 3.5rem;
           }
-           .header-right{
+          .header-right{
             display:flex;
+            font-weight: bold;
           }
           .logo{
             display:flex;
@@ -39,6 +40,11 @@ function Header () {
           }
           .header-right p{
             padding-right:20px;
+          }
+          @media (max-width: 550px){
+            h1{
+              display: none;
+            }
           }
             `}
       </style>
