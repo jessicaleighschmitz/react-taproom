@@ -13,6 +13,7 @@ function Header () {
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/'>Home</Link></p>
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/newsTicker'>Craft Brew News</Link></p>
         <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/about'>About</Link></p>
+        <p className='newsLink'><Link style={{textDecoration: 'none', color: '#171614'}} to='/admin'>Admin</Link></p>
       </div>
       <style jsx>{`
           @import url('https://fonts.googleapis.com/css?family=Righteous');
